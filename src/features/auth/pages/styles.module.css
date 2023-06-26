@@ -1,0 +1,29 @@
+.LoginOptionContainer{
+    display: flex;
+    margin: 10px !important;
+    width: 100%;
+    justify-content: center;
+}
+.GoogleBtn{
+    color: #fff !important;
+    font-size: 15px;
+    background-color: #cd201f !important;
+    width: 45%;
+    height: 50px;
+    padding: 5px !important;
+    margin: 10px !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.FacebookBtn{
+    color: #fff !important;
+    font-size: 15px;
+    background-color: #3B5998 !important;
+    width: 45% !important;
+    height: 50px;
+    padding: 5px !important;
+    margin: 10px !important;
+    border-radius: 5px;
+}

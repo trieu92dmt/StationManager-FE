@@ -1,0 +1,91 @@
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.hiddenItem{
+    display: none !important;
+}
+
+.row{
+    height: fit-content;
+}
+.rowPending{
+    background-color: #febf00;
+    height: fit-content;
+}
+.rowPending:hover{
+    background-color: #fddd7d !important;
+}
+.rowLock{
+    background-color: #FF0000;
+}
+.rowLock:hover{
+    background-color: #f87878 !important;
+}
+.actionBtn{
+    padding: 5px !important;
+    margin: 0 5px !important;
+}
+.actionIcon{
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.stt{
+    text-align: center;
+}
+
+
+/*----- Hết phần table -----*/
+.headerContent{
+    margin: 20px 0;
+}
+
+/*----- Text field ----*/
+.customeTextField{
+    width: 400px;
+    height: 20px;
+    font-size: 13px;
+}
+.customInput{
+    border-radius: 0 !important;
+}
+
+.customInput:focus{
+    box-shadow: none !important;
+}
+
+.customLabel{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+
+.customDropdown{
+    z-index: 999;
+    cursor: pointer !important;
+    font-size: 13px;
+}
+
+.customIcon{
+    padding: 2px;
+    font-size: 12px;
+}
+.textContent{
+    font-size: 13px;
+}

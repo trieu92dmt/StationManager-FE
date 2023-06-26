@@ -1,0 +1,47 @@
+.formContainer{
+    margin: auto;
+}
+
+.title{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: bold !important;
+}
+
+.avatar{
+    width: 180px !important;
+    height: 180px !important;
+    margin: auto;
+}
+
+.btnEditImage{  
+    display: block !important;
+    margin: 10px auto !important;
+    color: #fff !important;
+    width: fit-content !important;
+    background-color: #1a73e8 !important;
+}
+
+.btnSubmit{  
+    display: block !important;
+    margin: 10px auto !important;
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.infoGroup{
+    margin-top: 15px;
+}
+
+.socialInput{
+    margin: 10px 0 !important;
+    width: 100%;
+}
+
+.inputImg{
+    display: none;
+}
+
+.thumnail{
+    width: 100%;
+}

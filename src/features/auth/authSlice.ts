@@ -10,6 +10,7 @@ export interface AuthState {
   isLoggedIn: boolean;
   logging?: boolean;
   currentUser?: User;
+  error?: any; // Thêm trường error vào kiểu AuthState
 }
 
 const initialState: AuthState = {
@@ -30,8 +31,9 @@ const authSlice = createSlice({
       state.logging = false;
       state.currentUser = action.payload;
     },
-    loginFailed(state, action: PayloadAction<string>) {
+    loginFailed(state, action: PayloadAction<any>) {
       state.logging = false;
+      state.error = action.payload;
     },
 
     logout(state) {
@@ -47,6 +49,7 @@ export const authActions = authSlice.actions;
 // Selectors
 export const selectIsLoggedIn = (state: any) => state.auth.isLoggedIn;
 export const selectIsLogging = (state: any) => state.auth.logging;
+export const selectIsUser = (state: any) => state.auth.currentUser;
 
 // Reducer
 const authReducer = authSlice.reducer;

@@ -1,7 +1,7 @@
 import { Box, Grid, LinearProgress, makeStyles, Typography } from '@material-ui/core';
 import { ChatBubble, ChatRounded, LinearScaleSharp, PeopleAlt } from '@material-ui/icons';
 import { useAppDispatch, useAppSelector } from 'app/hooks';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import StatisticItem from './components/StatisticItem';
 import StudentRankingList from './components/StudentRankingList';
 import Widget from './components/Widget';

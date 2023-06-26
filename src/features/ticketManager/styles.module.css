@@ -1,0 +1,185 @@
+.filterContainer{
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
+}
+
+.leftFilterContainer{
+    width: 35% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 10px;
+}
+
+.rightFilterContainer{
+    width: 35% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 10px;
+}
+
+
+.labelFilter{
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.filterItem{
+    margin: 0 20px 20px 20px !important;
+}
+
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    position: static !important;
+}
+
+.btnFilter{
+    display: flex;
+    justify-content: center;
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+}
+
+.btnFilterContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0 !important;
+}
+
+.btnBase{
+    margin: 5px !important;
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.btnEdit{
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer{
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+.tabConatiner{
+    width: 100% !important;
+}
+
+.width100{
+    width: 100%;
+}
+
+.mainContent{
+    width: 100% !important;
+}
+
+.overflowNone{
+    overflow: hidden;
+}
+
+.margin10{
+    margin: 10px;
+}
+
+.detailTripItem{
+    width: 45%;
+    display: flex;
+    justify-content: space-between !important;
+    margin: 10px;
+}
+
+.detailTripContent{
+    width: 55%;
+}
+
+.detailTripContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seatDiagram{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.btnSeat{
+    background-color: #1a73e8;
+    border: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inActived{
+    background-color: #98c3fb !important;
+    border: #98c3fb;
+    color: #fff;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.btnBooked{
+    background-color: #006633 !important;
+    border: #006633;
+    color: #fff;
+}
+
+.btnBought{
+    background-color: #FF3333 !important;
+    border: #FF3333;
+    color: #fff;
+}
+
+.btnChose{
+    background-color: #996600 !important;
+    border:#996600;
+    color: #fff;
+}
+
+.bookFormContainer{
+    display: flex;
+}
+
+.diagramContainer{
+    width: 60%;
+}
+
+.bookDetailItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.bookDetailInput{
+    margin-left: 10px;
+}
+.btnSubmit{
+    display: block !important;
+    margin: auto !important;
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}

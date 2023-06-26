@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+}
+
+.searchFormContainer {
+    padding: 20px 0px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchItem {
+    width: 250px;
+}
+
+.searchBtn {
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+    border-radius: 0 !important;
+    height: 100%;
+}
+
+.sectionContainer {
+    margin: 0px 250px;
+}
+
+.resultContainer {
+    margin: 10px;
+    display: flex;
+}
+
+.filterOptionLabel {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.filterOptionList {
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+}
+
+.itemFilterLabel {
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.btnFilterOption {
+    margin: 3px !important;
+    font-size: 12px !important;
+    width: 150px !important;
+    font-weight: normal;
+}
+
+.filterOptItem {
+    display: flex !important;
+    margin: 5px;
+}
+
+.filterOptionItem {
+    margin-bottom: 10px;
+}
+
+.mySlider {
+    color: #1a73e8;
+    border-radius: 4px;
+}
+
+.valueSlider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valueSliderItem {
+    font-size: 12px;
+}
+
+.listResultContainer {
+    width: 65%;
+    margin: 15px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+}
+
+.cardImage {
+    margin-right: 16px;
+    width: 170px;
+}
+
+.cardImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardContent {
+    width: calc(100% - 170px) !important;
+}
+
+.cardContent .topContent .ticketPrice{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.cardContent .topContent {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.cardContent .topContent .companyName{
+    display: flex;
+    align-items: center !important;
+}
+
+.cardContent .topContent .companyName h2 {
+    font-size: 18px;
+    margin: 0 3px;
+    text-align: left !important;
+}
+
+.cardContent p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.ratePoint{
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: #fff;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.seatOptionItem {
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.addSeatBtn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    color: #1a73e8;
+    border: none;
+}
+
+.deleteSeatBtn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    color: #1a73e8;
+    border: none;
+}
+
+.seatNumberOpt{
+    display: flex;
+    align-items: center;
+}
+
+.seatNumberInput {
+    height: 40px;
+    text-align: center;
+}
+
+.seatRowOpt {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.ratingOpt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.listCompany{
+    max-height: 250px;
+    overflow: auto;
+}
+
+.companyOptItem{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.companyOptLabelItem{
+    margin: 0 10px !important;
+    font-size: 13px !important;
+}
+.bottomTripItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomTripItem h3{
+    margin: 0;
+    color: #148a1b;
+
+}
+
+.choseBtn{
+    color: #fff !important;
+    background-color: #148a1b !important;
+}
+
+.choseBtn:hover{
+    color: #148a1b;
+}
+
+.tripContentItem{
+    text-align: left;
+}
+
+.tripContentItem h3{
+    margin: 5px 0;
+    font-weight: 100;
+}
+
+.searchResultLabel{
+    padding: 10px;
+}
+
+.companyName a{
+    font-size: 16px;
+    color: #1a73e8;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+}
+
+.TripItem{
+    margin: 10px 0 !important;
+}
+
+.detailTripItem{
+    width: 40%;
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between !important;
+}
+
+.detailTripContent{
+    width: 70%;
+}
+
+.detailTripContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seatDiagram{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.btnSeat{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a73e8;
+    border: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inActived{
+    background-color: #98c3fb !important;
+    border: #98c3fb;
+    color: #fff;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.btnBooked{
+    background-color: #006633 !important;
+    border: #006633;
+    color: #fff;
+}
+
+.btnBought{
+    background-color: #FF3333 !important;
+    border: #FF3333;
+    color: #fff;
+}
+
+.btnChose{
+    background-color: #996600 !important;
+    border:#996600;
+    color: #fff;
+}
+
+.bookFormContainer{
+    display: flex;
+}
+
+.diagramContainer{
+    width: 60%;
+}
+
+.bookDetailItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.bookDetailInput{
+    margin-left: 10px;
+}
+.btnSubmit{
+    /* display: block !important; */
+    /* margin: auto !important; */
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.textFieldInput{
+    width: 30%;
+}
+
+.dateFieldInput{
+    width: 30%;
+}
+.searchInputContainer{
+    border: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+    width: 85% !important;
+}
+
+.btnRotate{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnRotate i{
+    font-size: 16px;
+}
+.breadcrumb{
+    padding: 20px 10px 0px 10px;
+}
+
+/* Custom */
+.inputLabelCustom{
+    font-size: 13px;
+    color: #858585;
+}
+.inputDateCustom{
+    font-weight: bold;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px solid #949494 !important;
+}
+.customInput{
+    border-radius: 0 !important;
+}
+
+.customLabel{
+    font-size: 13px;
+    font-weight: bold;
+}

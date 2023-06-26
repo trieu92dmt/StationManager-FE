@@ -18,7 +18,6 @@ function* handleIncrementSaga(action: PayloadAction<number>) {
 }
 
 export default function* counterSaga() {
-  console.log('counter saga');
 
   yield takeEvery(incrementSaga.toString(), handleIncrementSaga);
 }

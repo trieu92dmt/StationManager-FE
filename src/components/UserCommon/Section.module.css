@@ -1,0 +1,86 @@
+.labelSection{
+    color: #4e4e48;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.section {
+    margin: 40px 160px ;
+}
+
+.componentContainer{
+    margin: 40px 160px 40px ;
+    margin-bottom: 40px;
+}
+
+.banner1{
+    background-color: #ddfef9;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.banner2{
+    background-color: #0d084d;
+    padding: 20px 0;
+    width: 100%;
+    color: #fff;
+}
+
+.bannerSide{
+    width: 45%;
+}
+
+.lContentBanner{
+    height: 500px;
+    justify-content: space-between;
+}
+
+.rContentBanner .labelSection{
+    color: #fff;
+}
+
+.rContentBanner{
+    height: 500px;
+    justify-content: space-between;
+}
+
+.check{
+    background-color: rgb(76 175 80) !important;
+}
+
+.newsContainer{
+    height: 287px;
+}
+
+.textColorFFF p{
+    color: #fff !important;
+}
+
+.textColorFFF{
+    color: #fff !important;
+}
+
+.becomePartner{
+    text-align: center;
+    margin: 100px;
+    position: relative;
+}
+
+.becomePartnerBtn{
+    text-align: center;
+    padding: 10px 20px !important;
+    border: 2px solid #1a73e8 !important;
+    background-color: #fff !important;
+    color: #1a73e8 !important;
+    margin: 20px !important;
+}
+
+.becomePartnerHr{
+    height: 5px;
+    background-color: #1a73e8;
+    color: #1a73e8;
+}
+
+.stationName{
+    text-align: center;
+}

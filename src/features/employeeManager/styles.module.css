@@ -1,0 +1,132 @@
+.filterContainer{
+    margin: 10px;
+}
+
+.labelFilter{
+    padding-right: 15px;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.filterItem{
+    margin-bottom: 20px !important;
+}
+
+.btnFilter{
+    display: flex;
+    justify-content: center;
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+}
+
+.btnFilterContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0 !important;
+}
+
+.btnEdit{
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+
+.formEditCotainer{
+    display: flex;
+    justify-content: center;
+}
+
+.formEditItem{
+    padding: 20px;
+    width: 45%;
+}
+
+.employeeImage{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.editEmployeeItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    align-items: center;
+}
+
+.editEmployeeInput{
+    width: 70% !important;
+}
+
+.btnEditEmployee{
+    margin: auto !important;
+    display: block !important;
+}
+
+.btnAddEmployee{
+    margin: auto !important;
+    display: block !important;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    margin: 0 5px !important;
+}
+
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}
+
+.inputField{
+    border-radius: unset !important;
+}
+
+.inputField div div{
+    border-radius: unset !important;
+}
+
+.tableData{
+    font-size: 13px !important;
+}
+.labelFilter{
+    padding-right: 15px;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+.customLabel{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* ------Table----- */
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}

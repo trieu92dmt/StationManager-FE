@@ -1,0 +1,268 @@
+.filterContainer{
+    margin: 40px 80px 0 80px;
+}
+
+.labelFilter{
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.filterItem{
+    margin-bottom: 20px !important;
+}
+
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+}
+
+.btnFilter{
+    display: flex;
+    justify-content: center;
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+}
+
+.btnFilterContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0 !important;
+}
+
+.btnEdit{
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.btnBooked{
+    background-color: #006633 !important;
+    border: #006633;
+    color: #fff;
+}
+
+.btnBought{
+    background-color: #FF3333 !important;
+    border: #FF3333;
+    color: #fff;
+}
+
+.btnChose{
+    background-color: #996600 !important;
+    border:#996600;
+    color: #fff;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    margin: 0 5px !important;
+}
+
+.formAddContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.addTripItem{
+    padding: 10px;
+    align-items: center;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.addTripInput{
+    width: 70% !important;
+}
+
+.btnAddTrip{
+    display: block !important;
+    margin: auto !important;
+}
+
+.formEditContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formEditItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 45%;
+}
+
+.editTripInput{
+    width: 70% !important;
+}
+
+.btnEditTrip{
+    margin: auto !important;
+    display: block !important;
+}
+
+.editTripItem{
+    padding: 10px;
+    align-items: center;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnSeat{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a73e8;
+    border: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inActived{
+    background-color: #98c3fb !important;
+    border: #98c3fb;
+    color: #fff;
+}
+
+.seatDiagram{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}
+
+
+.inputField{
+    border-radius: unset !important;
+}
+
+.inputField div div{
+    border-radius: unset !important;
+}
+
+.inputField div div input{
+    font-size: 13px !important;
+}
+
+.inputField div div fieldset legend{
+    font-size: 13px !important;
+}
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+.customLabel{
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.customInput{
+    border-radius: 0 !important;
+    width: 300px;
+}
+
+.customInput:focus{
+    box-shadow: none !important;
+}
+.inputDateCustom{
+    width: 300px;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #c4c4c4;
+}
+/* ------Table----- */
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.seatDiagramContainer{
+    background-color: #e5e7eb;
+}
+
+.tkBooked{
+    max-height: 100px !important;
+    border: 1px solid #006633;
+    background-color: #bffbdd;
+    padding: 10px !important;
+    font-size: 13px;
+    color: #006633;
+}
+.tkBought{
+    max-height: 100px;
+    border: 1px solid #FF3333;
+    background-color: #fce4e4;
+    padding: 10px !important;
+    font-size: 13px;
+    color: #FF3333;
+}
+.badgeCustom{
+    border-radius: 0;
+}
+
+.badgeBought{
+    background-color: #FF3333;
+}
+
+.badgeBooked{
+    background-color: #006633;
+}
+.w40{
+    width: 40%;
+}
+
+.haveEmpty{
+    background-color: #139956;
+}
+
+.noHaveEmpty{
+    background-color: #f7c246;
+}
+.tooltipCustom{
+    font-size: 13px;
+}
+.listTicketContainer{
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

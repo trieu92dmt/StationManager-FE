@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.accordion {
+    padding: 24px 24px 0px 24px;
+}
+.finalAccordion{
+    padding-bottom: 24px !important;
+}
+
+.accordionLayout {
+    border-radius: 4px;
+    border: 1px solid #1a73e8;
+    overflow: hidden;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a73e8;
+    padding: 8px;
+}
+
+.accordionTitle {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0 0 0 8px;
+}
+.accordionContentWrapper{
+    padding: 24px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.expand {
+    max-height: 1000px;
+    /* Đặt giá trị cao nhất để đảm bảo hiệu ứng mượt mà */
+}
+
+.contentItem{
+    display: flex;
+    width: 33.333%;
+    padding: 10px;
+}
+.separator {
+    border-left: 2px solid #e5e7eb;
+    border-right: 2px solid #e5e7eb;
+}
+.contentLabel{
+    width: 45%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.contentValue{
+    width: 55%;
+    font-size: 13px;
+}
+.contentValue p{
+    margin: 0;
+}
+
+/*------Custom-------*/
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+.customBtnIcon {
+    border: none;
+    outline: none;
+    background-color: #1a73e8;
+    color: #fff;
+    transition: all ease-in-out .3s;
+    width: 30px;
+    height: 30px;
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.rotateIcon {
+    transform: rotate(180deg);
+}
+
+.customBtnIcon:hover {
+    border-radius: 70%;
+    background-color: #185cb5;
+}
+
+.customBtnIcon:active {
+    border-radius: 50%;
+    background-color: #185cb5;
+}
+
+.customIcon {
+    padding: 3px;
+    font-size: 12px;
+}
+
+/*--------Table-----------*/
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.hiddenItem{
+    display: none !important;
+}
+
+.row{
+    height: fit-content;
+}
+.stt{
+    text-align: center;
+}
+.noItem{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 13px;
+}
+.rateHeader div{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.rateHeader div div i{
+    color: orange;
+}
+
+.rateHeader div label{
+    padding-right: 10px;
+}
+.changeStatusBtn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px 24px 0 24px;
+}

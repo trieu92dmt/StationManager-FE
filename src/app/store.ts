@@ -8,6 +8,9 @@ import createSagaMiddleware from 'redux-saga';
 import { history } from 'utils';
 import counterReducer from '../features/counter/counterSlice';
 import rootSaga from './rootSaga';
+import provinceReducer from 'features/common/province/provinceSlice';
+import registerReducer from 'features/auth/userRegisterSlice';
+import carCompanyReducer from 'features/carCompanyInfo/carCompanyInfoSlice';
 
 const rootReducer = combineReducers({
   router: connectRouter(history),
@@ -16,6 +19,9 @@ const rootReducer = combineReducers({
   dashboard: dashboardReducer,
   student: studentReducer,
   city: cityReducer,
+  province: provinceReducer,
+  userRegister: registerReducer,
+  carCompanyInfo: carCompanyReducer,
 });
 
 const sagaMiddleware = createSagaMiddleware();

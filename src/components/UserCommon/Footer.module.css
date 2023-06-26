@@ -1,0 +1,62 @@
+.footerWrapper{
+    padding: 20px;
+    background-color: #272c34;
+    color: #fff;
+}
+
+.itemContainer{
+    justify-content: space-around;
+}
+
+.footerItem{
+    padding: 20px;
+    margin: 0 20px;
+    width: 20%;
+}
+
+.title{
+    text-align: center;
+}
+
+.listItem{
+    padding: 5px 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.github{
+    color: #272c34;
+}
+
+.facebook{
+    color: #0675e7;
+}
+
+.instagram{
+    color: #ff0374;
+}
+
+.youtube{
+    color: #ff0000
+}
+
+.twitter{
+    color: #1d9bf0;
+}
+
+.twitch{
+    color: #9046ff;
+}
+
+.socialItem{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.copyright{
+    margin-top: 10px;
+    text-align: center;
+}

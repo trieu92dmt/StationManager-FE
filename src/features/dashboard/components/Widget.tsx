@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Box, makeStyles, Paper, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({

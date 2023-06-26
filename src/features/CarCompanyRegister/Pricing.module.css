@@ -1,0 +1,95 @@
+.pricingContainer{
+    margin: 40px 160px ;
+}
+
+.pricingItem{
+    margin: 20px 0;
+}
+
+.pricingPrice{
+    text-align: center;
+}
+
+.registerModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalTitle{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold !important;
+}
+
+.registerForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.registerItem{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.registerInput{
+    width: 50%;
+}
+
+.btnPay{
+    width: 100%;
+    color: #fff !important;
+    background-color: #2e7d32 !important;
+    padding: 10px;
+    margin: 8px 0 !important;
+}
+.btnPay:hover{
+    background-color: #1b5e20 !important;
+}
+
+.packageContentItem{
+    padding: 5px 10px;
+}
+
+.btnRegister{
+    color: #fff !important;
+    background-color: #1976d2 !important;
+}
+
+
+.paymentOpt{
+    transition: all ease-in-out .3s;
+}
+
+.zaloPayBtn{
+    background-color: #008fe5 !important;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 !important;
+    color: #fff !important;
+}
+
+.momoBtn{
+    background-color: #a50064 !important;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 !important;
+    color: #fff !important;
+}
+
+.height0{
+    height: 0;
+    overflow: hidden;
+}
+
+.heightFitContent{
+    height: fit-content;
+}
+
+.customLabel{
+    font-size: 13px;
+    font-weight: bold;
+}

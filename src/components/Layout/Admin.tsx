@@ -1,8 +1,10 @@
 import { Box, makeStyles } from '@material-ui/core';
 import { Header, Sidebar } from 'components/Common';
-import Dashboard from 'features/dashboard';
+import AdminAccountManager from 'features/admin/accountManager';
+import AdminCarCompanyDetail from 'features/admin/carCompanyDetail';
+import AdminCarCompanyManager from 'features/admin/carCompanyManager';
+import AdminCarCompanyCreate from 'features/admin/carCompanyManager/components/companyCreate';
 import StudentFeature from 'features/student';
-import * as React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -25,8 +27,10 @@ const useStyles = makeStyles((theme) => ({
   },
   main: {
     gridArea: 'main',
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#e5e7eb',
     padding: theme.spacing(2, 3),
+    width: '100%',
+    overflow: 'auto',
   },
 }));
 
@@ -45,8 +49,20 @@ export function AdminLayout() {
 
       <Box className={classes.main}>
         <Switch>
-          <Route path="/admin/dashboard">
-            <Dashboard />
+          <Route path="/admin/car-company-manager" exact>
+            <AdminCarCompanyManager />
+          </Route>
+
+          <Route path="/admin/car-company-manager/create">
+            <AdminCarCompanyCreate />
+          </Route>
+
+          <Route path="/admin/car-company-manager/detail/:carCompanyId">
+            <AdminCarCompanyDetail/>
+          </Route>
+
+          <Route path="/admin/permission/accounts" exact>
+            <AdminAccountManager />
           </Route>
 
           <Route path="/admin/students">

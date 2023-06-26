@@ -1,0 +1,45 @@
+.title {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.filterContainer{
+    padding: 20px 10px;
+    background-color: #fff;
+    width: 60% !important;
+    border-radius: 10px;
+}
+
+.textFieldInput{
+    width: 28%;
+}
+
+.dateFieldInput{
+    width: 24%;
+}
+
+.btnFilter{
+    border: 1px solid #1a73e8 !important;
+    color: #1a73e8 !important;
+}
+
+.banner {
+    height: 90vh;
+    background-image: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inputDateCustom{
+    font-weight: bold;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px solid #949494 !important;
+}
+
+.inputLabelCustom{
+    font-size: 13px;
+    color: #858585;
+}

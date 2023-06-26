@@ -1,0 +1,195 @@
+.filterContainer{
+    margin: 10px;
+}
+
+.labelFilter{
+    padding-right: 15px;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.btnFilter{
+    display: flex;
+    justify-content: center;
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    font-size: 13px !important;
+}
+
+.btnFilterContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btnEdit{
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.btnAdd{
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    margin: 0 5px !important;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.seatDiagram{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.formHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.formHeaderItem{
+    margin: 10px !important;
+}
+
+.btnSeat{
+    background-color: #1a73e8;
+    border: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.inActived{
+    background-color: #98c3fb !important;
+    border: #98c3fb;
+    color: #fff;
+}
+
+.btnAddCarType{
+    margin: auto !important;
+    display: block !important;
+}
+
+.addCarItem{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.addCarInput{
+    width: 65%;
+}
+
+.addCarContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}
+
+.inputField{
+    border-radius: unset !important;
+}
+
+.inputField div div{
+    border-radius: unset !important;
+}
+
+.inputField div div input{
+    font-size: 13px !important;
+}
+
+.inputField div div fieldset legend{
+    font-size: 13px !important;
+}
+
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.row{
+    height: fit-content;
+}
+.actionBtn{
+    padding: 5px !important;
+    margin: 0 5px !important;
+}
+.actionIcon{
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.stt{
+    text-align: center;
+}
+
+/*----- Text field ----*/
+.customeTextField{
+    width: 400px;
+    height: 20px;
+    font-size: 13px;
+}
+.customInput{
+    border-radius: 0 !important;
+}
+
+.customInput:focus{
+    box-shadow: none !important;
+}
+
+.customLabel{
+    font-size: 13px;
+    font-weight: bold;
+}
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+.inputAutoCompleteCustom{
+    padding: .375rem .75rem;
+    border: 1px solid;
+}
+/* .customDropdown{
+    z-index: 999 !important;
+    cursor: pointer !important;
+    font-size: 13px;
+} */
+/* .dialogContent{
+    overflow-y: unset !important;
+} */

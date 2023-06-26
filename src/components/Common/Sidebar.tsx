@@ -30,23 +30,54 @@ export function Sidebar() {
   return (
     <div className={classes.root}>
       <List component="nav" aria-label="main mailbox folders">
-        <NavLink to="/admin/dashboard" className={classes.link}>
+        <NavLink to="/admin/car-company-manager" className={classes.link}>
           <ListItem button>
             <ListItemIcon>
               <Dashboard />
             </ListItemIcon>
-            <ListItemText primary="Dashboard" />
+            <ListItemText primary="Quản lý nhà xe" />
           </ListItem>
         </NavLink>
-
-        <NavLink to="/admin/students" className={classes.link}>
+        {/* <NavLink to="/admin/permission/roles" className={classes.link}>
           <ListItem button>
             <ListItemIcon>
               <PeopleAlt />
             </ListItemIcon>
-            <ListItemText primary="Students" />
+            <ListItemText primary="Nhóm người dùng" />
+          </ListItem>
+        </NavLink> */}
+        <NavLink to="/admin/permission/accounts" className={classes.link}>
+          <ListItem button>
+            <ListItemIcon>
+              <PeopleAlt />
+            </ListItemIcon>
+            <ListItemText primary="Quản lý tài khoản" />
           </ListItem>
         </NavLink>
+        {/* <NavLink to="/admin/permission/functions" className={classes.link}>
+          <ListItem button>
+            <ListItemIcon>
+              <PeopleAlt />
+            </ListItemIcon>
+            <ListItemText primary="Quản lý thao tác" />
+          </ListItem>
+        </NavLink>
+        <NavLink to="/admin/permission/pages" className={classes.link}>
+          <ListItem button>
+            <ListItemIcon>
+              <PeopleAlt />
+            </ListItemIcon>
+            <ListItemText primary="Quản lý chức năng web" />
+          </ListItem>
+        </NavLink>
+        <NavLink to="/admin/permission-access" className={classes.link}>
+          <ListItem button>
+            <ListItemIcon>
+              <PeopleAlt />
+            </ListItemIcon>
+            <ListItemText primary="Phân quyền chức năng" />
+          </ListItem>
+        </NavLink> */}
       </List>
     </div>
   );

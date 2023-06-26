@@ -1,0 +1,74 @@
+.filterContainer{
+    margin: 40px 80px 0 80px;
+}
+
+.labelFilter{
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.filterItem{
+    margin-bottom: 20px !important;
+}
+
+.btnFilter{
+    display: flex !important;
+    justify-content: center !important; 
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    margin: auto !important;
+}
+
+.btnAdd{
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    display: flex !important;
+    margin-left: auto !important;
+}
+
+.formAddContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.leftFormAddContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addDeliveryItem{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.radioIsShip{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    width: 300px;
+}
+
+.btnAddDelivery{
+    display: block !important;
+    margin: auto !important;
+}
+
+.radioStatus{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    width: 300px;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}

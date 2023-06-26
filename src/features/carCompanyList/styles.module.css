@@ -1,0 +1,58 @@
+.bodyContainer{
+    margin: 40px 190px ;
+}
+
+.pageTitle{
+    margin: 0 0 30px 0 !important;
+}
+
+.rateStar{
+    font-size: 24px;
+    color: orange;
+}
+
+.cardItem{
+    margin: 10px !important;
+    min-width: 345px;
+}
+
+.cardItemContent{
+    height: 50px;
+}
+
+.ratePoint{
+    display: flex;
+    align-items: center;
+}
+
+.ratePoint p{
+    margin: 0;
+}
+
+.CardBottom{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listCarCompanyContainer{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.pagination{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carCompanyName{
+    text-decoration: none;
+    color: black;
+}
+
+.contentHeader{
+    background-color: #fff;
+}

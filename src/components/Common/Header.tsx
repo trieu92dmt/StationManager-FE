@@ -15,6 +15,10 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+
+  headerContainer: {
+    backgroundColor: '#1a73e8',
+  },
 }));
 
 export function Header() {
@@ -27,10 +31,10 @@ export function Header() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.headerContainer}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Student Management
+            Station Management Admin
           </Typography>
 
           <Button color="inherit" onClick={handleLogoutClick}>

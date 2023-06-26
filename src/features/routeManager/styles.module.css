@@ -1,0 +1,152 @@
+.filterContainer{
+    margin: 40px 80px 0 80px;
+}
+
+.labelFilter{
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.filterItem{
+    margin-bottom: 20px !important;
+}
+
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+}
+
+.btnFilter{
+    display: flex;
+    justify-content: center;
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+}
+
+.btnFilterContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0 !important;
+}
+
+.btnEdit{
+    color: #fff !important;
+    background-color: #1a73e8 !important;
+}
+
+.hiddenItem{
+    display: none !important;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    background-color: #1a73e8 !important;
+    background-color: #fff;
+    margin: 0 5px !important;
+}
+
+.formAddContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.addRouteItem{
+    padding: 10px;
+    align-items: center;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.addRouteInput{
+    width: 70% !important;
+}
+
+.btnAddRoute{
+    display: block !important;
+    margin: auto !important;
+}
+
+.formEditContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formEditItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 45%;
+}
+
+.editRouteInput{
+    width: 70% !important;
+}
+
+.btnEditRoute{
+    margin: auto !important;
+    display: block !important;
+}
+
+.contentHeader{
+    margin: 10px 0 !important;
+    background-color: #fff !important;
+    padding: 10px !important;
+}
+.inputField{
+    border-radius: unset !important;
+}
+
+.inputField div div{
+    border-radius: unset !important;
+}
+
+.inputField div div input{
+    font-size: 13px !important;
+}
+
+.inputField div div fieldset legend{
+    font-size: 13px !important;
+}
+.customBtn{
+    font-size: 13px !important;
+    padding: 3px 9px !important;
+    border-radius: 3px !important;
+    margin: 0 3px;
+}
+.customLabel{
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.customInput{
+    border-radius: 0 !important;
+}
+
+.customInput:focus{
+    box-shadow: none !important;
+}
+/* ------Table----- */
+.tableHeader{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.tableData{
+    font-size: 13px !important;
+    height: fit-content;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
